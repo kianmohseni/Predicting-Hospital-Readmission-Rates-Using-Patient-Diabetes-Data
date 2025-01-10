@@ -59,7 +59,7 @@ Random Forest |	0.81	| 0.88	| 0.84 |	0.58
 XGBoost	| 0.83	| 0.89	| 0.84	| 0.61
 Random Forest w/ Hyperparameter Tuning	| 0.81	| 0.87	| 0.84 |	0.58
 Stacking Classifier	| 0.82	| 0.87	| 0.84 |	0.58
-Weighted Voting Classifier | | | 0.62
+Weighted Voting Classifier | 0.83 | 0.89 | 0.84 | 0.62
 
 ## Key Findings
 1. Top Predictors:
@@ -74,7 +74,7 @@ Weighted Voting Classifier | | | 0.62
 ## Visualizations
 1. Correlation Matrix: Highlights relationships between key features.
 2. Precision-Recall Curve: Demonstrates trade-offs between Precision and Recall for Random Forest.
-3. Feature Importance Plot: Top 15 predictors identified by the Random Forest model.
+3. Feature Importance Plot: Top 15 predictors identified by the Random Forest model. Number of inpatient visits, hospital interactions, number of medications, number of lab procedures, and time spent in the hospital, were the most predictive indicators of readmission results.
 
 # Future Work
 - Incorporate temporal data (e.g., trends over multiple hospital visits).
